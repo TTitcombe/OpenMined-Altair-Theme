@@ -19,7 +19,12 @@ See [here][altair-custom-theme] for more information on defining custom themes f
     ```
 6. Use [Altair] as normal
 
+## Example usage
 See the [notebooks](./examples) for example usage.
+This repo provides a conda environment with all required packages.
+With conda installed, run `conda env create -f environment.yml`
+to create the conda environment,
+called `om-altair-dev`.
 
 ## License
 This repo is released with an Apache 2 license.
